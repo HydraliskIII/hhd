@@ -25,8 +25,11 @@ class Character(Enum):
     mfs = '魔法师'
     sl = '森林老人'
     sm = '善民'
-    em = '饿民'
+    em = '恶民'
     wy = '乌鸦'
+    jz = '镜子'
+    zd = '炸弹'
+    ts = '天使'
     Master = '神'
 
     def heal(self, player_healed):
